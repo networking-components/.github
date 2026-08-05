@@ -29,7 +29,7 @@
     "contains_non_public_inventory": true,
     "digest": "sha256:0609d5859476b0ca2666697a06a00f4d33057b69ccb33d113669aa7f2ea50475",
     "path": "owners/networking-components.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [],
   "repositories": [

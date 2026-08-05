@@ -1,10 +1,56 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:07:32Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:8e5fa6bd27337d4551480b58710a1220bc2124211885e72b13cad91473b1c73c",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 16,
+    "private_repositories_omitted": true,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "networking-components/.github",
+    "github_id": "310324248",
+    "linear_project": {
+      "id": "387c602e-8b41-4b1e-80da-e07ba5c73c11",
+      "name": "github.com/networking-components",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomnetworking-components-0099b19507ec",
+      "workspace": "denman"
+    },
+    "login": "networking-components",
+    "mapping_id": "context:networking-components"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": true,
+    "digest": "sha256:0609d5859476b0ca2666697a06a00f4d33057b69ccb33d113669aa7f2ea50475",
+    "path": "owners/networking-components.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "networking-components/.github",
+      "github_id": "1324048611",
+      "name": ".github",
+      "owner": "networking-components",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/networking-components/.github",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "networking-components",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }

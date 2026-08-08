@@ -23,9 +23,12 @@ GitHub owns code and delivery evidence; Linear owns planning and dependencies. T
 <!-- org-project-routing:end -->
 
 <!-- ore-org-baseline:begin -->
-This GitHub account maintains software, infrastructure, research, and supporting documentation under the [`networking-components`](https://github.com/networking-components) GitHub owner.
+## Planning and governance
 
-Planning and delivery context is tracked in [github.com/networking-components](https://linear.app/denman/project/githubcomnetworking-components-0099b19507ec). Public contribution, security, and governance defaults are maintained in [`.github`](https://github.com/networking-components/.github).
+- Canonical Linear project: https://linear.app/denman/project/githubcomnetworking-components-0099b19507ec
+- Organization defaults: https://github.com/networking-components/.github
+- Canonical agent policy: https://github.com/networking-components/.github/blob/main/agents.md
+- Security policy: https://github.com/networking-components/.github/security/policy
 
-Repository descriptions and repository-local documentation remain authoritative for each project. Do not infer production readiness, support commitments, or security guarantees from this profile alone.
+Repositories in this organization use semantic conflict resolution with 3–10 relevant prior commits when useful, full cross-repository context, pull-request delivery, and a hard automated-agent denylist for destructive or history-rewriting operations.
 <!-- ore-org-baseline:end -->
